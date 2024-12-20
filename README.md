@@ -10,9 +10,8 @@ Flight delays have significant economic and logistical impacts, costing the avia
 For this binary, imbalanced classification problem focused on predicting flight cancellations, I evaluated several ensemble models, including Balanced Random Forest and Easy Ensemble, along with baseline models like Logistic Regression and Random Forest. Using 3-fold StratifiedKFold cross-validation and a custom grid search function, I optimized hyperparameters and tested diﬀerent class imbalance handling techniques such as undersampling with RandomUnderSampler and NearMiss. The Balanced Random Forest Classifier was selected as the best model, achieving a near-perfect recall (0.9997) and a strong AUPRC (0.380), crucial for minimizing false negatives in cancellation detection. Although precision was lower (0.104), the model's ability to capture true positives justified this trade-oﬀ. Key features influencing the model included prior cancellation counts and time-related and weather variables, aligning with trends identified during exploratory analysis.
 
 ## Reports
-📝 [Technical Report]()
-
-📊 [Executive Presentation]()
+📝 [Technical Report](https://github.com/dezertdweller/flight-cancellations/blob/main/reports/Flight%20Cancellations%20Report.pdf)\
+📊 [Executive Presentation](https://github.com/dezertdweller/flight-cancellations/blob/main/reports/Predicting%20Flight%20Cancellations%20Presentation.pdf)
 
 ## Repo Organization
 ```
